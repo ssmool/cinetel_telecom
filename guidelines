@@ -1,179 +1,181 @@
-#author:asytrick
+author:asytrick
 #website:githubs.com/ssmool/cinetel_telecom
 #e-mail:eussmool@gmail.com
 
 CINETEL - Open Source Telecom Provider
 
-Projeto e Engenharia de Sistemas de Internet e Telefonia via Infravermelho, Rádio UHF e Rede Elétrica
-ÍNDICE GERAL
-PARTE I — FUNDAMENTOS DE REDES E COMUNICAÇÃO
+Design and Engineering of Internet and Telephony Systems via Infrared, UHF Radio and Power Grid
 
-    Introdução ao Projeto CINETEL
+GENERAL INDEX
 
-       Visão geral e objetivos
+PART I — FUNDAMENTALS OF NETWORKS AND COMMUNICATION
 
-        Objetivos da iniciativa
+Introduction to the CINETEL Project
 
-        Aplicações e públicos-alvo
+Overview and objectives
 
-        Visão de um sistema telecomunicações autônomo e modular
+Objectives of the initiative
 
-    Fundamentos de Redes de Comunicação
+Applications and target audiences
 
-        Tipos de redes: LAN, MAN, WAN
+Vision of an autonomous and modular telecommunications system
 
-        Conceitos de camada OSI e protocolos IP
+Fundamentals of Communication Networks
 
-        Redes híbridas e integração de tecnologias
+Types of networks: LAN, MAN, WAN
 
-        Filosofia open source aplicada à telecom
+Concepts of OSI layer and IP protocols
 
-        Panorama de aplicação em zonas remotas e urbanas
+Hybrid networks and technology integration
 
-Fundamentos das Tecnologias de Comunicação
+Open source philosophy applied to telecom
 
-    Conceitos de rede e topologia
+Overview of application in remote and urban areas
 
-    Comunicação óptica por infravermelho
+Fundamentals of Communication Technologies
 
-    Transmissão UHF para dados e voz
+Network concepts and topology
 
-    Comunicação via rede elétrica (PLC)
+Infrared optical communication
 
-    Noções de Telefonia IP (VoIP)
+UHF transmission for data and voice
 
-        Protocolo SIP e RTP
+Communication via power grid (PLC)
 
-        Softswitches e PBX open source (Asterisk, FreePBX)
+Basics of IP Telephony (VoIP)
 
-        Integração entre voz e dados
+SIP and RTP protocol
 
-PARTE II — INFRAESTRUTURA DE COMUNICAÇÃO INFRAVERMELHA
+Softswitches and open source PBX (Asterisk, FreePBX)
 
-    Comunicação Óptica em Espaço Livre (FSO/IR)
+Integration between voice and data
 
-        Princípios físicos e espectro infravermelho
+PART II — INFRARED COMMUNICATION INFRASTRUCTURE
 
-        Modulação e correção de erros
+Free-Space Optical Communication (FSO/IR)
 
-        Requisitos de linha de visada
+Physical principles and infrared spectrum
 
-    Planejamento e Projeto de Links IR
+Modulation and error correction
 
-        Cálculo de distância e potência
+Line-of-sight requirements
 
-        Fatores climáticos e ambientais
+Planning and Design of IR Links
 
-        Casos de uso: campus, zona rural, ilhas
+Distance and power calculation
 
-    Equipamentos e Provedores
+Climatic and environmental factors
 
-        Análise de modelos: fSONA, LightPointe, Mostcom
+Use cases: campus, rural area, islands
 
-        Especificações técnicas
+Equipment and Providers
 
-        Instalação e alinhamento de antenas IR
+Model analysis: fSONA, LightPointe, Mostcom
 
-PARTE III — REDE DE ACESSO VIA RÁDIO UHF
+Technical specifications
 
-    Tecnologia de Transmissão DSL por Rádio
+Installation and alignment of IR antennas
 
-        Princípio de modulação DSL em UHF
+PART III — UHF RADIO ACCESS NETWORK
 
-        Benefícios e limitações técnicas
+DSL Radio Transmission Technology
 
-    Equipamentos e Arquitetura de Rede UHF
+DSL modulation principle in UHF
 
-        Cambium PMP, Ubiquiti AirMax, Mimosa
+Technical Benefits and Limitations
 
-        Frequências licenciadas vs. livres
+UHF Network Architecture and Equipment
 
-        Esquema de distribuição ponto-multiponto
+Cambium PMP, Ubiquiti AirMax, Mimosa
 
-    Licenciamento e Regulação
+Licensed vs. Non-licensed Frequencies free
 
-        Normas ANATEL para UHF e enlaces sem fio
+Point-to-multipoint distribution scheme
 
-        Cálculo de EIRP e mitigação de interferência
+Licensing and Regulation
 
-PARTE IV — COMUNICAÇÃO POR REDE ELÉTRICA (PLC)
+ANATEL standards for UHF and wireless links
 
-    Introdução à Tecnologia PLC (Power Line Communication)
+EIRP calculation and interference mitigation
 
-        Comunicação por tomadas elétricas
+PART IV — COMMUNICATION BY POWER LINE (PLC)
 
-        Padrões HomePlug AV e G.hn
+Introduction to PLC (Power Line Communication) Technology
 
-    Aplicações em Ambientes Urbanos e Industriais
+Communication by electrical outlets
 
-        Cobertura em zonas mistas (indoor/outdoor)
+HomePlug AV and G.hn standards
 
-        Casos de uso para IoT e backbone de curta distância
+Applications in Urban and Industrial Environments
 
-    Equipamentos e Configuração
+Coverage in mixed zones (indoor/outdoor)
 
-        Adaptadores TP-Link, devolo, Netgear
+Use cases for IoT and short-distance backbone
 
-        Ferramentas para monitoramento e QoS
+Equipment and Configuration
 
-PARTE V — ARQUITETURA DO SISTEMA INTEGRADO CINETEL
+TP-Link, devolo, Netgear adapters
 
-    Projeto de Rede Híbrida
+Monitoring and QoS tools
 
-        Integração IR + UHF + PLC
+PART V — CINETEL INTEGRATED SYSTEM ARCHITECTURE
 
-        Roteamento e redundância
+Hybrid Network Design
 
-        Gerenciamento centralizado (RouterOS, OpenWRT)
+IR + UHF + PLC Integration
 
-    Serviços de Valor Agregado
+Routing and redundancy
 
-        Servidores SIP internos
+Centralized management (RouterOS, OpenWRT)
 
-        Monitoramento com Zabbix / Grafana
+Value Services Aggregate
 
-        DNS/DHCP com pfSense
+Internal SIP Servers
 
-    Implantação Modular por Etapas
+Monitoring with Zabbix / Grafana
 
-        Fases do projeto por camadas
+DNS/DHCP with pfSense
 
-        Diagnóstico de cobertura
+Modular Deployment by Stages
 
-        Documentação e padrões abertos
+Project Phases by Layers
 
-PARTE VI — ESTUDOS DE CASO E MODELOS REPLICÁVEIS
+Coverage Diagnostics
 
-    Estudo de Caso: Conectividade Rural com IR
+Documentation and Open Standards
 
-    Estudo de Caso: Comunidade Urbana com UHF e PLC
+PART VI — CASE STUDIES AND REPLICABLE MODELS
 
-    Modelo Replicável para Cidades de Pequeno Porte
+Case Study: Rural Connectivity with IR
 
-    Desenvolvimento Sustentável e Inclusão Digital
+Case Study: Urban Community with UHF and PLC
 
-    Planos de Expansão: Mesh e Redes Comunitárias
+Replicable Model for Small Cities
 
-APÊNDICES
+Sustainable Development and Digital Inclusion
 
-    A. Glossário Técnico
+Expansion Plans: Mesh and Community Networks
 
-    B. Modelos de Contratos e Termos de Uso
+APPENDICES
 
-    C. Tabelas de Cálculo de Link Budget
+A. Technical Glossary
 
-    D. Lista de Fornecedores e Softwares Open Source
+B. Contract Models and Terms of Use
 
-    E. Procedimentos de Licenciamento e Homologação
+C. Link Budget Calculation Tables
 
-Apêndices e Recursos
+D. List of Suppliers and Open Source Software
 
-    A. Glossário Técnico
+E. Licensing and Approval Procedures
 
-    B. Tabelas de especificações
+Appendices and Resources
 
-    C. Modelos de licença ANATEL e autorização UHF
+A. Technical Glossary
 
-    D. Scripts e configurações de exemplo (OpenWRT, Asterisk)
+B. Specification Tables
 
-    E. Boas práticas de segurança em redes comunitárias
+C. ANATEL license models and UHF authorization
+
+D. Example scripts and configurations (OpenWRT, Asterisk)
+
+E. Good security practices in community networks
