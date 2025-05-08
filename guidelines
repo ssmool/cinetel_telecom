@@ -1,0 +1,179 @@
+#author:asytrick
+#website:githubs.com/ssmool/cinetel_telecom
+#e-mail:eussmool@gmail.com
+
+CINETEL - Open Source Telecom Provider
+
+Projeto e Engenharia de Sistemas de Internet e Telefonia via Infravermelho, Rádio UHF e Rede Elétrica
+ÍNDICE GERAL
+PARTE I — FUNDAMENTOS DE REDES E COMUNICAÇÃO
+
+    Introdução ao Projeto CINETEL
+
+       Visão geral e objetivos
+
+        Objetivos da iniciativa
+
+        Aplicações e públicos-alvo
+
+        Visão de um sistema telecomunicações autônomo e modular
+
+    Fundamentos de Redes de Comunicação
+
+        Tipos de redes: LAN, MAN, WAN
+
+        Conceitos de camada OSI e protocolos IP
+
+        Redes híbridas e integração de tecnologias
+
+        Filosofia open source aplicada à telecom
+
+        Panorama de aplicação em zonas remotas e urbanas
+
+Fundamentos das Tecnologias de Comunicação
+
+    Conceitos de rede e topologia
+
+    Comunicação óptica por infravermelho
+
+    Transmissão UHF para dados e voz
+
+    Comunicação via rede elétrica (PLC)
+
+    Noções de Telefonia IP (VoIP)
+
+        Protocolo SIP e RTP
+
+        Softswitches e PBX open source (Asterisk, FreePBX)
+
+        Integração entre voz e dados
+
+PARTE II — INFRAESTRUTURA DE COMUNICAÇÃO INFRAVERMELHA
+
+    Comunicação Óptica em Espaço Livre (FSO/IR)
+
+        Princípios físicos e espectro infravermelho
+
+        Modulação e correção de erros
+
+        Requisitos de linha de visada
+
+    Planejamento e Projeto de Links IR
+
+        Cálculo de distância e potência
+
+        Fatores climáticos e ambientais
+
+        Casos de uso: campus, zona rural, ilhas
+
+    Equipamentos e Provedores
+
+        Análise de modelos: fSONA, LightPointe, Mostcom
+
+        Especificações técnicas
+
+        Instalação e alinhamento de antenas IR
+
+PARTE III — REDE DE ACESSO VIA RÁDIO UHF
+
+    Tecnologia de Transmissão DSL por Rádio
+
+        Princípio de modulação DSL em UHF
+
+        Benefícios e limitações técnicas
+
+    Equipamentos e Arquitetura de Rede UHF
+
+        Cambium PMP, Ubiquiti AirMax, Mimosa
+
+        Frequências licenciadas vs. livres
+
+        Esquema de distribuição ponto-multiponto
+
+    Licenciamento e Regulação
+
+        Normas ANATEL para UHF e enlaces sem fio
+
+        Cálculo de EIRP e mitigação de interferência
+
+PARTE IV — COMUNICAÇÃO POR REDE ELÉTRICA (PLC)
+
+    Introdução à Tecnologia PLC (Power Line Communication)
+
+        Comunicação por tomadas elétricas
+
+        Padrões HomePlug AV e G.hn
+
+    Aplicações em Ambientes Urbanos e Industriais
+
+        Cobertura em zonas mistas (indoor/outdoor)
+
+        Casos de uso para IoT e backbone de curta distância
+
+    Equipamentos e Configuração
+
+        Adaptadores TP-Link, devolo, Netgear
+
+        Ferramentas para monitoramento e QoS
+
+PARTE V — ARQUITETURA DO SISTEMA INTEGRADO CINETEL
+
+    Projeto de Rede Híbrida
+
+        Integração IR + UHF + PLC
+
+        Roteamento e redundância
+
+        Gerenciamento centralizado (RouterOS, OpenWRT)
+
+    Serviços de Valor Agregado
+
+        Servidores SIP internos
+
+        Monitoramento com Zabbix / Grafana
+
+        DNS/DHCP com pfSense
+
+    Implantação Modular por Etapas
+
+        Fases do projeto por camadas
+
+        Diagnóstico de cobertura
+
+        Documentação e padrões abertos
+
+PARTE VI — ESTUDOS DE CASO E MODELOS REPLICÁVEIS
+
+    Estudo de Caso: Conectividade Rural com IR
+
+    Estudo de Caso: Comunidade Urbana com UHF e PLC
+
+    Modelo Replicável para Cidades de Pequeno Porte
+
+    Desenvolvimento Sustentável e Inclusão Digital
+
+    Planos de Expansão: Mesh e Redes Comunitárias
+
+APÊNDICES
+
+    A. Glossário Técnico
+
+    B. Modelos de Contratos e Termos de Uso
+
+    C. Tabelas de Cálculo de Link Budget
+
+    D. Lista de Fornecedores e Softwares Open Source
+
+    E. Procedimentos de Licenciamento e Homologação
+
+Apêndices e Recursos
+
+    A. Glossário Técnico
+
+    B. Tabelas de especificações
+
+    C. Modelos de licença ANATEL e autorização UHF
+
+    D. Scripts e configurações de exemplo (OpenWRT, Asterisk)
+
+    E. Boas práticas de segurança em redes comunitárias
