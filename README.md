@@ -2,7 +2,7 @@
 ## Internet and Wireless Telephony
 Research by build a Telecom like Infrared, UHF and PLC for Wirelles services by Internet and Phone Call
 
-![CINETEL TELECOM Internet and Wireless Telephony(./assets/logo.png)]
+![CINETEL TELECOM Internet and Wireless Telephony Logo](./assets/logo.png))
 
 *A conceptual logo representing the solar system as a symbol of interconnected communication.*
 
