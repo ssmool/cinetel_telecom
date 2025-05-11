@@ -6,15 +6,12 @@ Research by build a Telecom like Infrared, UHF and PLC for Wirelles services by 
 
 *A conceptual logo representing the solar system as a symbol of interconnected communication.*
 
----
-
 ### 📘 Project Guidelines
 
 **CINETEL TELECOM** is a conceptual prototype of a wireless internet and telephony service provider built around alternative and experimental technologies such as **Backhaus networking**, **UHF Internet**, and **IPC connectivity**.
 
 This repository presents the early-stage guidelines for version **1.0 Beta**, integrating several interconnected modules and systems, forming the basis of a decentralised and modular communication and data service framework.
 
----
 
 ### 🔭 Project Vision – Version 1.0 Beta Modules
 
@@ -41,7 +38,6 @@ This repository presents the early-stage guidelines for version **1.0 Beta**, in
 #### 🔧 Electronic Engineering (Embedded Systems)
 - **Assembly-Electronic-PCB**: A platform and toolkit for engineering and developing electronic circuit boards with OS-assisted CAD and embedded software integration
 
----
 
 ### 📌 Project Index
 
@@ -57,17 +53,11 @@ This repository presents the early-stage guidelines for version **1.0 Beta**, in
 10. 💽 Atlas Mundi (FreeBSD-based OS)  
 11. 🔧 Assembly-Electronic-PCB Toolchain
 
----
-
 ### 📇 Author
 
 - **Project Author:** `#asytrick`  
 - **Website:** [CINETEL TELECOM GitHub Repository](https://github.com/ssmool/cinetel_telecom)  
 - **Contact Email:** [eusmool@gmail.com](mailto:eusmool@gmail.com)
 
----
-
 > ⚠️ This project is currently in prototype and conceptual development phase. Contributions, discussions, and collaboration are welcome to shape the future of open-source communication infrastructure.
-
----
 
